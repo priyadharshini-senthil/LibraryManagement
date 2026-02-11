@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Book</title>
+</head>
+<body>
+    <h3>Search Book by ISBN</h3>
+    <form action="MainServlet" method="post">
+        Enter ISBN: <input type="text" name="isbn" maxlength="10" required>
+        <input type="hidden" name="operation" value="Search">
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>
